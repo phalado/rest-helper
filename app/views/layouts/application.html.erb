@@ -6,10 +6,13 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
+<h1> THIS IS BEFORE </h1>
     <%= yield %>
+
+<h1> THIS IS AFTER YIELD </h1>
   </body>
 </html>
